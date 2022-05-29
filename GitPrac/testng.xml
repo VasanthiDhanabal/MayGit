@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="ActitimeTests" verbose="1" >
+
+  <listeners>
+    <listener class-name="com.actitime.base.BaseClass" />   
+  </listeners>
+
+  <test name="Projects" >  
+    
+    <packages>
+       <package name="com.actitime.tests" />
+     </packages>
+  </test> 
+    
+</suite>
